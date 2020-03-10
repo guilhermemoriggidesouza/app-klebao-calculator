@@ -21,7 +21,6 @@ class _CalculadoraState extends State<Calculadora> {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           _buildDisplay(),
-          Divider(height: 0.2),
           _buildKeyboard()
         ],
       ),
@@ -100,7 +99,7 @@ class _CalculadoraState extends State<Calculadora> {
               children: <Widget>[
                   _buildKeyboardButton('0', flex:2, textColor: Colors.white),
                   _buildKeyboardButton('.', textColor: Colors.white),
-                  _buildKeyboardButton('*', textColor: Colors.white),
+                  _buildKeyboardButton('x', textColor: Colors.white),
               ],
             ),
           ),
